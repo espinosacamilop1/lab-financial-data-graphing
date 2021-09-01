@@ -1,2 +1,27 @@
 <h1>{{title}}</h1>
 <p>Welcome to {{title}}</p>
+
+ <canvas id="myChart" width="400px" height="400px"></canvas>
+
+ 
+      <label for="date-range">Date Range:</label>
+      <input type="date" id="start-date">
+      <input type="date" id="end-date">
+      <button id="submit-dates">Submit Dates</button>
+
+    <br>
+    <br>
+
+   <label for="currencies">Select a currency:</label>   
+   <select name="currency" id="currency">
+     <option value="USD">USD</option>
+     <option value="EUR">EUR</option>
+   </select>
+
+    <br>
+    <br>
+
+    <span id="information-box">
+      <h3>Min Value: </h3> <h3 id="min-value"></h3>
+      <h3>Max Value: </h3> <h3 id="max-value"></h3>
+    </span>
